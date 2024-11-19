@@ -20,6 +20,7 @@ public class LolMod
     public static final String MOD_ID = "lolmod";
     private static final Logger LOGGER = LogUtils.getLogger();
 
+    // 중요!!
     public LolMod()
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
